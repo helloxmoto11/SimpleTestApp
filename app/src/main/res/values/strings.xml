@@ -8,4 +8,6 @@
     <string name="set_daily_notification">Set Daily Notification</string>
     <string name="notify">Notify</string>
     <string name="list_sort_method">List Sort Method</string>
+    <string name="notification_channel_name">Simple Notifications</string>
+    <string name="notification_channel_description">Notifications for testing</string>
 </resources>
