@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">SimpleTestApp</string>
+
+    <string name="importance">Importance</string>
+    <string name="rating">Rating</string>
+    <string name="settings">Settings</string>
+    <string name="pref_root_key">preferenceRootKey</string>
+    <string name="set_daily_notification">Set Daily Notification</string>
+    <string name="notify">Notify</string>
+    <string name="list_sort_method">List Sort Method</string>
 </resources>

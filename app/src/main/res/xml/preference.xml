@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="@string/pref_root_key">
+
+    <PreferenceCategory android:title="Notifications">
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="@string/set_daily_notification"
+            android:title="@string/set_daily_notification" />
+        <Preference
+            android:defaultValue="false"
+            android:key="@string/notify"
+            android:title="@string/notify" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Sort">
+
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/sort_order"
+            android:entryValues="@array/sort_order"
+            android:key="@string/list_sort_method"
+            android:title="@string/list_sort_method" />
+    </PreferenceCategory>
+</PreferenceScreen>
